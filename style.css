@@ -49,6 +49,11 @@ body {
     padding-right: 5px;
 }
 
+.right-content h1 {
+    margin-block-start: 33.5px;
+    margin-block-end: 33.5px;
+}
+
 .container {
     /* gap: 40px; */
 }
@@ -58,9 +63,9 @@ body {
     background-image: linear-gradient(rgb(205, 233, 45), rgb(31, 165, 170));
     color: white;
     padding: 5px 15px;
-    border: 1px solid black;
     border-radius: 5px;
     text-transform: uppercase;
+    box-shadow: 2px 2px 4px grey;
     
     
 }
@@ -71,6 +76,8 @@ body {
 
 .left-content img {
     width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .right-content2 {
@@ -83,4 +90,42 @@ body {
 
 .right-content2 h1 {
     font-size: 50px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-block-start: 33.5px;
+    margin-block-end: 33.5px;
+}
+.experience h1 {
+    font-size: 24px;
+}
+
+.experience h3 {
+    color: orange;
+}
+
+.shadow {
+    box-shadow: 15px 15px 30px grey;
+    width: 40%;
+    margin: 0 5%;
+    padding: 20px;
+}
+
+#full-stack {
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow, green);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
